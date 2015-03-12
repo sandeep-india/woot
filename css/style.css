@@ -1,0 +1,21 @@
+
+.logo{
+	top:15px;
+	left: 15px;
+	margin-bottom: 15px;
+	height:30px;
+	width: auto;
+	position: absolute;
+}
+.banner{
+	width: 100%;
+	height:auto;
+	opacity: 0.6;
+	background-color: #000000;
+}
+
+.firstimp{
+	background-color: #000;
+	width:100%;
+	height:;
+}
