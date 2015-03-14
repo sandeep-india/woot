@@ -7,7 +7,7 @@
     <title>Wootmob - Discover amazing people.</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,32 +17,997 @@
     <![endif]-->
   </head>
   <body>
+  <!-- #563d7c -->
+
+  <!-- The home Impression -->
   <div class='firstimp'>
     <img class = "banner" src="images/party.jpg" alt="banner">
     <img class = "logo" src="images/logo-white.png" alt="Wootmob">
-    <p class="profile-name"><img class="profile-pic" src="images/profile.jpg" alt="profile-pic"><span>Sandeep </span><span id ="glyph" class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></p>
+   <!-- Profile Tab-->   
+   <div class= "profile-name">
+    <p id="dropdownMenu1" 
+      data-toggle="dropdown"><img class="profile-pic" src="images/profile.jpg" alt="profile-pic"><span>Sandeep </span><span id ="glyph" class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></p>
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+      <li role="presentation">
+         <a role="menuitem" tabindex="-1" href="#">Dashboard</a>
+      </li>
+      <li role="presentation">
+         <a role="menuitem" tabindex="-1" href="#">Listings</a>
+      </li>
+      <li role="presentation">
+         <a role="menuitem" tabindex="-1" href="#">
+            Lorem Ipsum
+         </a>
+      </li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation">
+         <a role="menuitem" tabindex="-1" href="#">Lorem Ipsum</a>
+      </li>
+   </ul>
+ </div>
+    
+    <!--Inbox-->
      <img class="inbox" src="images/inbox.png" alt="Wootmob">
-    <p class="help"><span>Help </span><span id ="glyph" class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></p>
-    <p class="listing"><button type="button" class="btn btn-primary btn-sm">List your Hangout</button></p>
-    <div class="concept">
-    <h1>DISCOVER HAPPINESS</h1>
-    <h4>Attend remarkable hangouts hosted by amazing folks in your locality.</h4>
-    <p class="how"><span class="how-text">How It Works</span></p>
+    
+    <!--Help-->
+    <div class="help">
+    <p id="dropdownMenu2" 
+      data-toggle="dropdown"><span>Help </span><span id ="glyph" class="glyphicon glyphicon-triangle-bottom" aria-hidden="true"></span></p>
+    
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2">
+      <li role="presentation">
+         <a role="menuitem" tabindex="-1" href="#">Lorem Ipsum dilor <br>sit amet american.</a>
+      </li>
+      <li role="presentation">
+         <a role="menuitem" tabindex="-1" href="#">Listings</a>
+      </li>
+      <li role="presentation">
+         <a role="menuitem" tabindex="-1" href="#">
+            Lorem Ipsum
+         </a>
+      </li>
+      <li role="presentation" class="divider"></li>
+      <li role="presentation">
+         <a role="menuitem" tabindex="-1" href="#">Lorem Ipsum</a>
+      </li>
+   </ul>
+
     </div>
+    <!-- Profile Tab-->
+    <p class="listing"><button type="button" class="btn btn-primary btn-sm">List your Hangout</button></p>
+    
+    <!--Captions-->
+    <div class="concept">
+      <h1>DISCOVER HAPPINESS</h1>
+      <h4>Book remarkable hangouts hosted by amazing folks in your locality.</h4>
+      <p class="how"><span class="how-text">How It Works</span></p>
+    </div>
+  
+    <!--Search bar-->
     <div class="search">
       <form>
 
         <div class="searchform form-group">
           <div class="col-md-offset-3 col-sm-5">
-          <input type="text" class="form-control" placeholder="Search Hangouts, Hosts & Places.">
+          <input type="text" class="search-text form-control" placeholder="Search Hangouts, Hosts & Places.">
           </div>
           <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
         </div>
       </form>
     </div>
   </div>
+
+  <!-- Trending in your location -->
+  <div class="container">
+    <div class="row ">
+
+      <div class="col-md-1" style="text-align:right">
+       <h2><span class="glyphicon glyphicon-map-marker"></h2>
+      </div>
+      <div class="col-md-11">
+        <h2>Bangalore, India</h2>
+      </div>
+   </div>
+
+    <div class="row trending">
+      <div class="scrollwrap col-md-offset-1 col-md-8">
+        
+
+
+      <!-- Card1 -->
+       
+      <div class="live" id="Parties">
+        <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Parties<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Jhonney on the rocks.</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div>
+      </div>
+     <!--  card2 -->
+     <div class="frombelow" id="Food">
+      <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Food<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card3-->
+     <div class="frombelow" id="Travel">
+      <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Travel & Adventure<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card4-->
+    <div class="frombelow" id="Games">
+      <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Games<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card5-->
+      <div class="frombelow" id="Films">
+        <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Film & Video Games<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card6-->
+        <div class="frombelow" id="Music">
+          <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Music & Art<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card7-->
+        <div class="frombelow" id="Nerds">
+          <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Nerd<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card8-->
+        <div class="frombelow" id="Sports">
+          <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Sports & Fitness<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card9-->
+        <div class="frombelow" id="Wisdom">
+          <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Wisdom<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card10-->
+        <div class="frombelow" id="Dating">
+          <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Dating<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card11-->
+        <div class="frombelow" id="Books">
+          <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Books<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+      <!--card12-->
+          <div class="frombelow" id="Photography">
+          <div class="row">
+          <div class="col-md-5">
+            <h3>Trending in: Books<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Homecoocked premier</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div> 
+        </div>
+       <!-- End of cards! -->
+      </div>
+
+        <div class="col-md-3" role="complementary">
+        <nav class="bs-docs-sidebar">
+        
+        <ul class="nav bs-docs-sidenav sideline"> 
+          <li class="active"><a id="idParties">Parties</a></li>
+          <li><a id="idFood">Food</a></li>
+          <li><a id="idTravel" >Travel & Adventure</a></li>
+          <li><a id="idGames" >Games</a></li>
+          <li><a id="idFilms" >Films & Video Games</a></li>
+          <li><a id="idMusic" >Music & Art</a></li>
+          <li><a id="idNerds" >Nerd</a></li>
+          <li><a id="idSports" >Sports & Fitness</a></li>
+          <li><a id="idWisdom" >Wisdom & Personal Growth</a></li>
+          <li><a id="idDating" >Dating</a></li>
+          <li><a id="idBooks" >Books</a></li>
+          <li><a id="idPhotography">Photography</a></li>
+        </ul>
+          
+          </nav>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+<br>
+<br>
+
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    var idarr =  ['idParties','idFood','idTravel','idGames','idFilms','idMusic','idNerds','idSports','idWisdom','idDating','idBooks','idPhotography'];
+    var divarr = ['Parties','Food','Travel','Games','Films','Music','Nerds','Sports','Wisdom','Dating','Books','Photography'];
+    var index = 0;
+    var speed = 300;
+    var length = 12;
+   // card 1 ========= 
+    $('#idParties').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idParties");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#idParties').parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+          index = tempindex;
+
+        }
+      }
+    });
+
+    //card 2 ===========
+
+    $('#idFood').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idFood");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+        
+          index = tempindex;
+
+        }
+      }
+    });    
+
+    //card 3 ==============
+   
+     
+    $('#idTravel').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idTravel");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+
+        }
+      }
+    });    
+    
+    //card 4 ================
+
+    $('#idGames').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idGames");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }          
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }          
+          index = tempindex;
+
+        }
+      }
+    });  
+
+    //card 5 ================
+
+
+    $('#idFilms').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idFilms");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }          
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }          
+          index = tempindex;
+
+        }
+      }
+    });
+
+    //card 6 =================
+
+    
+    $('#idMusic').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idMusic");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+          
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }          
+          index = tempindex;
+
+        }
+      }
+    });
+
+    // card 7 ======================
+  
+    $('#idNerds').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idNerds");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+
+        }
+      }
+    });
+    
+    // card 8 ==========================
+    
+    $('#idSports').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idSports");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+          
+          index = tempindex;
+
+        }
+      }
+    });    
+   
+    // card 9 =============================
+
+
+    $('#idWisdom').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idWisdom");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+
+        }
+      }
+    });  
+
+    //card 10 =====================
+
+    $('#idDating').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idDating");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }          
+          index = tempindex;
+
+        }
+      }
+    });  
+
+    //card 11 =====================
+    $('#idBooks').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idBooks");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;    
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+          index = tempindex;
+
+        }
+      }
+    });  
+
+    //card 12 =================
+
+    $('#idPhotography').click(function(){
+      console.log("clicked");
+      var tempindex = idarr.indexOf("idPhotography");
+      console.log(tempindex);
+      if (index === tempindex){
+       
+      }
+      else{
+        
+        $('#'+idarr[tempindex]).parent().addClass("active");
+        $('#'+idarr[index]).parent().removeClass("active");
+
+        if (index > tempindex){
+
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }
+
+          index = tempindex;
+        }
+        else{
+          $("#"+(divarr[index])).css({"position": "absolute"}).animate({top:"-450"},speed);
+          $('#'+(divarr[tempindex])).css({"position":"absolute"}).animate({top:"0"},speed);
+          for(i=0;i<tempindex;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",-450)};
+          }
+          for(i=(tempindex+1);i<length;i++){
+            if(i != index){$('#'+(divarr[i])).css("top",450)};
+          }          
+          index = tempindex;
+
+        }
+      }
+    });  
+
+    //========================================
+    
+
+    </script>
     <script>
     var images = ['images/play.jpg','images/old.jpg','images/present.jpg','images/party.jpg'];
     
