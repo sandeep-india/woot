@@ -5,9 +5,47 @@
  * details, see http://creativecommons.org/licenses/by/3.0/.
  */
 
+ /* p tags are used as buttons at places!*/
+
  .bs-docs-sidebar.affix{position:static}@media (min-width:768px){.bs-docs-sidebar{padding-left:20px}}.bs-docs-sidenav{margin-top:20px;margin-bottom:20px}.bs-docs-sidebar .nav>li>a{display:block;padding:0px 20px;font-size:13px;font-weight:500;color:#767676}.bs-docs-sidebar .nav>li>a:focus,.bs-docs-sidebar .nav>li>a:hover{padding-left:19px;color:#563d7c;text-decoration:none;background-color:transparent;border-left:1px solid #563d7c}.bs-docs-sidebar .nav>.active:focus>a,.bs-docs-sidebar .nav>.active:hover>a,.bs-docs-sidebar .nav>.active>a{padding-left:18px;font-weight:700;color:#563d7c;background-color:transparent;border-left:2px solid #563d7c}.bs-docs-sidebar .nav .nav{display:none;padding-bottom:10px}.bs-docs-sidebar .nav .nav>li>a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px;font-weight:400}.bs-docs-sidebar .nav .nav>li>a:focus,.bs-docs-sidebar .nav .nav>li>a:hover{padding-left:29px}.bs-docs-sidebar .nav .nav>.active:focus>a,.bs-docs-sidebar .nav .nav>.active:hover>a,.bs-docs-sidebar .nav .nav>.active>a{padding-left:28px;font-weight:500}.back-to-top,.bs-docs-theme-toggle{display:none;padding:0px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:hover,.bs-docs-theme-toggle:hover{color:#563d7c;text-decoration:none}.bs-docs-theme-toggle{margin-top:0}@media (min-width:768px){.back-to-top,.bs-docs-theme-toggle{display:block}}@media (min-width:992px){.bs-docs-sidebar .nav>.active>ul{display:block}.bs-docs-sidebar.affix,.bs-docs-sidebar.affix-bottom{width:213px}.bs-docs-sidebar.affix{position:fixed;top:20px}.bs-docs-sidebar.affix-bottom{position:absolute}.bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav{margin-top:0;margin-bottom:0}}@media (min-width:1200px){.bs-docs-sidebar.affix,.bs-docs-sidebar.affix-bottom{width:263px}}
  .bs-docs-sidenav{margin-top:20px;margin-bottom:20px}.bs-docs-sidebar .nav>li>a{display:block;padding:0px 20px;font-size:13px;font-weight:500;color:#767676}.bs-docs-sidebar .nav>li>a:focus,.bs-docs-sidebar .nav>li>a:hover{padding-left:19px;color:#563d7c;text-decoration:none;background-color:transparent;border-left:1px solid #563d7c}.bs-docs-sidebar .nav>.active:focus>a,.bs-docs-sidebar .nav>.active:hover>a,.bs-docs-sidebar .nav>.active>a{padding-left:18px;font-weight:700;color:#563d7c;background-color:transparent;border-left:2px solid #563d7c}.bs-docs-sidebar .nav .nav{display:none;padding-bottom:10px}.bs-docs-sidebar .nav .nav>li>a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px;font-weight:400}.bs-docs-sidebar .nav .nav>li>a:focus,.bs-docs-sidebar .nav .nav>li>a:hover{padding-left:29px}.bs-docs-sidebar .nav .nav>.active:focus>a,.bs-docs-sidebar .nav .nav>.active:hover>a,.bs-docs-sidebar .nav .nav>.active>a{padding-left:28px;font-weight:500}.back-to-top,.bs-docs-theme-toggle{display:none;padding:0px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:hover,.bs-docs-theme-toggle:hover{color:#563d7c;text-decoration:none}.bs-docs-theme-toggle{margin-top:0}@media (min-width:768px){.back-to-top,.bs-docs-theme-toggle{display:block}}@media (min-width:992px){.bs-docs-sidebar .nav>.active>ul{display:block}.bs-docs-sidebar.affix,.bs-docs-sidebar.affix-bottom{width:213px}.bs-docs-sidebar.affix{position:fixed;top:20px}.bs-docs-sidebar.affix-bottom{position:absolute}.bs-docs-sidebar.affix .bs-docs-sidenav,.bs-docs-sidebar.affix-bottom .bs-docs-sidenav{margin-top:0;margin-bottom:0}}
 
+body{
+	overflow-x:hidden;
+}
+
+.seebut{
+	margin-top: 10px;
+}
+
+h3{
+	margin-top: 10px;
+}
+
+.seeall{
+	border: 3px solid #bbb;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	cursor: pointer;
+	border-radius: 4px;
+	margin-left: 5%;
+}
+
+.seeall:hover{
+	border: 3px solid #999;
+}
+
+
+.location{
+	background-color:rgba(51, 122, 183,1);
+	padding-bottom: 10px;
+	margin-bottom: 0px;
+	color: white;
+	border-bottom: 1px solid #ddd;
+
+}
 .scrollwrap{
 	position:relative;
 	height: 450px;
@@ -15,10 +53,11 @@
 }
 
 .trending{
-	background-color:rgba(252,252,252,1);
+	margin-top: 0px;
+	background-color:rgba(250,250,250,1);
 	border-radius: 4px;
 	padding-bottom:20px;
-	margin-top: 7px;
+	border-bottom: 1px solid #ddd;
 }
 
 .live{
@@ -58,9 +97,12 @@
 .down5{
 	height:20px;
 }
+
 .thumb{
-   height:300px;
-   width:auto;
+   height:auto;
+   width:80%;
+   margin-right: 10%;
+   float: right;
    border-radius: 10px;
 }
 
@@ -90,11 +132,12 @@ body{
 	padding-bottom: 5px;
 	padding-right: 10px;
 	padding-left: 10px;
-	border: 1px solid #fff;
+	border: 2px solid #fff;
 	border-radius: 5px;
 	width:150px;
 	margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 
 	
 }

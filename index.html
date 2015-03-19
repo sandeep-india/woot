@@ -89,7 +89,7 @@
       <form>
 
         <div class="searchform form-group">
-          <div class="col-md-offset-3 col-sm-5">
+          <div class="col-xs-offset-3 col-xs-5 col-md-offset-3 col-md-5 col-sm-offset-3 col-sm-5">
           <input type="text" class="search-text form-control" placeholder="Search Hangouts, Hosts & Places.">
           </div>
           <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
@@ -99,61 +99,34 @@
   </div>
 
   <!-- Trending in your location -->
-  <div class="container">
-    <div class="row ">
+  
+    <div class="row location">
 
-      <div class="col-md-1" style="text-align:right">
+      <div class="col-md-1 col-xs-1 col-sm-1" style="text-align:right">
        <h2><span class="glyphicon glyphicon-map-marker"></h2>
       </div>
-      <div class="col-md-11">
+      <div class="col-md-11 col-xs-11 col-sm-11">
         <h2>Bangalore, India</h2>
       </div>
    </div>
 
     <div class="row trending">
-      <div class="scrollwrap col-md-offset-1 col-md-8">
+      <div class="down25"></div>
+      <div class="scrollwrap col-md-offset-1 col-md-8 col-sm-offset-1 col-sm-8 col-xs-offset-1 col-xs-8">
         
 
 
       <!-- Card1 -->
-       
-      <div class="live" id="Parties">
-        <div class="row">
-          <div class="col-md-5">
-            <h3>Trending in: Parties<h3>
-            <div class="down25"></div>
-            <img class = "thumb" src="images/inparty.jpg" alt="banner">
-          </div>
 
-          <div class="col-md-7">
-            <div class="down25"></div>
-            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
-            <div class="down25"></div>
-            <p class="lead"><strong>Jhonney on the rocks.</strong></p>
-            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
-            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
-            <div class="down25"></div>
-            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
-            <p class="lead" style="float:right;">INR 1500/-</p>
-            <div class="down5"></div>
-            <div class="progress">
-              <div class="percentage">
-              </div>
-            </div>
-            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
-          </div>
-        </div>
-      </div>
-     <!--  card2 -->
-     <div class="frombelow" id="Food">
+    <div class="live" id="Travel">
       <div class="row">
-          <div class="col-md-5">
-            <h3>Trending in: Food<h3>
+          <div class="col-md-5 col-sm-5 col-xs-5">
+            <h3>Trending in: Travel & Adventure<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -172,16 +145,46 @@
           </div>
         </div> 
         </div>
-      <!--card3-->
-     <div class="frombelow" id="Travel">
-      <div class="row">
-          <div class="col-md-5">
-            <h3>Trending in: Travel & Adventure<h3>
+       
+
+     <!--  card2 -->
+           <div class="frombelow" id="Parties">
+        <div class="row">
+          <div class="col-md-5 col-sm-5 col-xs-5">
+            <h3>Trending in: Parties<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
+            <div class="down25"></div>
+            <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
+            <div class="down25"></div>
+            <p class="lead"><strong>Jhonney on the rocks.</strong></p>
+            <p class="by"><em>by <a href="#person">Sandeep Maderametla</a></em><p>
+            <p class = "des">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae bibendum sapien. Integer ac elit in urna gravida convallis gravida in eros. Cras facilisis pretium ullamcorper.</p>
+            <div class="down25"></div>
+            <p class="lead" style="display:inline;"><span class="glyphicon glyphicon glyphicon-calendar" aria-hidden="true"></span> 27 MAR</p>
+            <p class="lead" style="float:right;">INR 1500/-</p>
+            <div class="down5"></div>
+            <div class="progress">
+              <div class="percentage">
+              </div>
+            </div>
+            <p style="text-align:center;">16 attendents so far, 4 passes left.</p>
+          </div>
+        </div>
+      </div>
+      <!--card3-->
+     <div class="frombelow" id="Food">
+      <div class="row">
+          <div class="col-md-5 col-sm-5 col-xs-5"> 
+            <h3>Trending in: Food<h3>
+            <div class="down25"></div>
+            <img class = "thumb" src="images/inparty.jpg" alt="banner">
+          </div>
+
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -201,15 +204,16 @@
         </div> 
         </div>
       <!--card4-->
+
     <div class="frombelow" id="Games">
       <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5">
             <h3>Trending in: Games<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -231,13 +235,13 @@
       <!--card5-->
       <div class="frombelow" id="Films">
         <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5">
             <h3>Trending in: Film & Video Games<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -259,13 +263,13 @@
       <!--card6-->
         <div class="frombelow" id="Music">
           <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5">
             <h3>Trending in: Music & Art<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -287,13 +291,13 @@
       <!--card7-->
         <div class="frombelow" id="Nerds">
           <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5"> 
             <h3>Trending in: Nerd<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -315,13 +319,13 @@
       <!--card8-->
         <div class="frombelow" id="Sports">
           <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5"> 
             <h3>Trending in: Sports & Fitness<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -343,13 +347,13 @@
       <!--card9-->
         <div class="frombelow" id="Wisdom">
           <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5">
             <h3>Trending in: Wisdom<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -371,13 +375,13 @@
       <!--card10-->
         <div class="frombelow" id="Dating">
           <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5">
             <h3>Trending in: Dating<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -399,13 +403,13 @@
       <!--card11-->
         <div class="frombelow" id="Books">
           <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5">
             <h3>Trending in: Books<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -427,13 +431,13 @@
       <!--card12-->
           <div class="frombelow" id="Photography">
           <div class="row">
-          <div class="col-md-5">
+          <div class="col-md-5 col-sm-5 col-xs-5">
             <h3>Trending in: Books<h3>
             <div class="down25"></div>
             <img class = "thumb" src="images/inparty.jpg" alt="banner">
           </div>
 
-          <div class="col-md-7">
+          <div class="col-md-7 col-sm-7 col-xs-7">
             <div class="down25"></div>
             <h5 style="text-align:right;vertical-align:bottom"><a href="#">See all party hangouts</a></h5>
             <div class="down25"></div>
@@ -455,15 +459,15 @@
        <!-- End of cards! -->
       </div>
 
-        <div class="col-md-3" role="complementary">
+        <div class="col-md-3 col-sm-3 col-xs-3" role="complementary"> 
         <nav class="bs-docs-sidebar">
         
         <ul class="nav bs-docs-sidenav sideline"> 
-          <li class="active"><a id="idParties">Parties</a></li>
+          <li class="active"><a id="idTravel" >Travel & Adventure</a></li>
+          <li ><a id="idParties">Parties</a></li>
           <li><a id="idFood">Food</a></li>
-          <li><a id="idTravel" >Travel & Adventure</a></li>
           <li><a id="idGames" >Games</a></li>
-          <li><a id="idFilms" >Films & Video Games</a></li>
+          <li><a id="idFilms" >Film & Video Games</a></li>
           <li><a id="idMusic" >Music & Art</a></li>
           <li><a id="idNerds" >Nerd</a></li>
           <li><a id="idSports" >Sports & Fitness</a></li>
@@ -477,9 +481,74 @@
         </div>
       </div>
     </div>
-    </div>
-  </div>
+    </div> 
+    
 
+    <!-- End of trending in your location -->
+
+    <!-- Start of staff Picks  -->
+    
+      <div class="down25"></div>
+      <div class="row">
+        <div class="col-md-offset-1 col-xs-offset-1 col-sm-offset-1 col-md-4 col-xs-4 col-sm-4">
+          <h3>Staff Picks</h3>
+        </div>
+        <div class="col-md-offset-5 col-xs-offset-5 col-sm-offset-5 col-md-2 col-xs-2 col-sm-2">
+
+           <p class="seebut"><span class="seeall"><strong>See all<strong><span></p>
+        </div>
+      </div>
+      <div class="down25"></div>
+      <div class="container">
+      <div class="row">
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMxOSAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMzE5IiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEyMC41NjI1IiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTVwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4zMTl4MjAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+          <div class="caption">
+            <h3 id="thumbnail-label">Thumbnail label<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMxOSAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMzE5IiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEyMC41NjI1IiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTVwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4zMTl4MjAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+          <div class="caption">
+            <h3 id="thumbnail-label">Thumbnail label<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMxOSAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMzE5IiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEyMC41NjI1IiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTVwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4zMTl4MjAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+          <div class="caption">
+            <h3 id="thumbnail-label">Thumbnail label<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-4 col-md-3">
+        <div class="thumbnail">
+          <img data-src="holder.js/100%x200" alt="100%x200" style="height: 200px; width: 100%; display: block;" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMzE5IiBoZWlnaHQ9IjIwMCIgdmlld0JveD0iMCAwIDMxOSAyMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxkZWZzLz48cmVjdCB3aWR0aD0iMzE5IiBoZWlnaHQ9IjIwMCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjEyMC41NjI1IiB5PSIxMDAiIHN0eWxlPSJmaWxsOiNBQUFBQUE7Zm9udC13ZWlnaHQ6Ym9sZDtmb250LWZhbWlseTpBcmlhbCwgSGVsdmV0aWNhLCBPcGVuIFNhbnMsIHNhbnMtc2VyaWYsIG1vbm9zcGFjZTtmb250LXNpemU6MTVwdDtkb21pbmFudC1iYXNlbGluZTpjZW50cmFsIj4zMTl4MjAwPC90ZXh0PjwvZz48L3N2Zz4=" data-holder-rendered="true">
+          <div class="caption">
+            <h3 id="thumbnail-label">Thumbnail label<a class="anchorjs-link" href="#thumbnail-label"><span class="anchorjs-icon"></span></a></h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+          </div>
+        </div>
+      </div>      
+
+    </div>
+    </div>
+ 
+    
 <br>
 <br>
 
@@ -488,9 +557,12 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Add a div, an li tag in the menu and add the object to arrays below-->
+
     <script>
-    var idarr =  ['idParties','idFood','idTravel','idGames','idFilms','idMusic','idNerds','idSports','idWisdom','idDating','idBooks','idPhotography'];
-    var divarr = ['Parties','Food','Travel','Games','Films','Music','Nerds','Sports','Wisdom','Dating','Books','Photography'];
+    var idarr =  ['idTravel','idParties','idFood','idGames','idFilms','idMusic','idNerds','idSports','idWisdom','idDating','idBooks','idPhotography'];
+    var divarr = ['Travel','Parties','Food','Games','Films','Music','Nerds','Sports','Wisdom','Dating','Books','Photography'];
     var index = 0;
     var speed = 300;
     var length = 12;
