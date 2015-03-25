@@ -1,0 +1,28 @@
+.firstimp{
+	background-color: #000;
+	height:60px;
+}
+
+.search{
+	background-color:rgba(0,0,0,0);
+	top:-18px;
+	z-index: 0;
+	height: 0px;
+}
+
+.profile-name{
+	z-index: 1;
+}
+
+.inbox{
+	z-index: 1;
+}
+
+.help{
+	z-index: 1;
+}
+.backtouch{
+	background-color: #337ab7;
+	color: white;
+	cursor: pointer;
+}
