@@ -1,0 +1,121 @@
+.firstkill{
+	font-size: 32px;
+	text-align: center;
+}
+.secondkill{
+	font-size: 18px;
+	text-align: center;
+}
+
+.intromap{
+	background-color:rgba(245,245,245,1);
+	padding-bottom: 20px;
+}
+
+.date{
+	margin-bottom: 0px;
+	margin-left: 95px;
+}
+.leftdays{
+	margin-top: 0px;
+	font-size: 16px;
+	margin-left: 95px;
+	text-transform: uppercase;
+}
+.datespot{
+	position: relative;
+}
+.calicon{
+	font-size: 40px;
+	position: absolute;
+	top:10px;
+	left:30px;
+}
+.attendents{
+	margin-left: 40px;
+	margin-top:-10px;
+}
+
+.attendents_num{
+	margin-left: 40px;
+}
+
+.passes{
+	margin-left: 40px;
+}
+
+.attending{
+	position: relative;
+}
+
+.bookpass{
+	margin-left: 50px;
+}
+
+
+.passesleft{
+	position: relative;
+}
+.costfinal{
+	margin-left: 50px;
+}
+
+.location-detail{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.address-detail{
+	margin-left: 15px;
+}
+
+.borderbot{
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+
+#subprofile{
+	border-radius: 50px;
+	cursor: pointer;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+
+.makername{
+	position: absolute;
+	top:0px;
+	left:120px;
+	cursor: pointer;
+}
+
+.profile-data{
+	position: relative;
+	height:100px;
+}
+
+.ratingvalue{
+	position: absolute;
+	top:55px;
+	left:120px;
+	background-color: rgb(51, 122, 183);
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+	padding-left: 5px;
+	border-radius: 3px;
+}
+
+.votesvalue{
+	position: absolute;
+	top:60px;
+	left:180px;
+}
+
+.maker-phone{
+	top:25px;
+	left:120px;
+	position: absolute;
+}
+
